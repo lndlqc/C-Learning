@@ -19,7 +19,7 @@ public:
 		p_age = p.p_age;
 		p_height = new int(*p.p_height);
 		
-
+		cout << "change_change";
 		cout << "¿½±´¹¹Ôì"<<endl;
 	}
 	~Person()
