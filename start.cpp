@@ -20,7 +20,7 @@ public:
 		p_height = new int(*p.p_height);
 		
 		cout << "change_change";
-		cout << "拷贝构造"<<endl;
+		cout << "拷贝构造0"<<endl;
 	}
 	~Person()
 	{
