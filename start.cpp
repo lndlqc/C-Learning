@@ -20,7 +20,7 @@ public:
 		p_height = new int(*p.p_height);
 		
 		cout << "change_change";
-		cout << "拷贝构造0"<<endl;
+		cout << "拷贝构造"<<endl;
 	}
 	~Person()
 	{
@@ -35,14 +35,15 @@ public:
 	string name;
 };
 
+//class person1 :public Person;
 
 void test()
 {
 	Person p1(10,160);
 	Person p2(p1);
-	cout << "p2的age为" << p2.p_age << "p2height为" << *p2.p_height << endl;
+	cout << "p2的age为" << p2.p_age << endl<< "p2height为" << *p2.p_height << endl;
 	p1.p_age = 11;
-	cout << "p2的age为" << p2.p_age << "p2height为" << *p2.p_height << endl;
+	cout << "p2的age为" << p2.p_age << endl<< "p2height为" << *p2.p_height << endl;
 }
 class X
 {
